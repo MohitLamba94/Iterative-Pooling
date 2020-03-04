@@ -2,6 +2,8 @@ clc
 close all
 clear all
 
+# You must have the RAISE dataset mentioned in paper on your system to execute this file
+
 rng(1)
 
 global raise_tiff dir90_14 dir90_06 dir90_08 dir90_1 dir90_12 dir_one raw qf1 rot_angle
