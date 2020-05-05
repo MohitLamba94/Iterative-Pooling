@@ -7,7 +7,7 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 |Image Resolution after Resampling|Patch Size|
 |---:|:---|
 |< 1024x1024 | 128x128|
-|> 1024x1024 but < 2000x2000 | 256x256|
+|~ 1024x1024 but < 2000x2000 | 256x256|
 |>2000x2000 | 512x512|
 
 **Original Image size:** 512x512 <br/>
