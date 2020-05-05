@@ -3,6 +3,38 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 
 ***The arXiv version of the paper can found at https://arxiv.org/abs/2003.01364.***
 
+# Sample Output
+|Image Resolution after Resampling|Patch Size|
+|---:|:---|
+|< 1024x1024 | 128x128|
+|> 1024x1024 but < 2000x2000 | 256x256|
+|>2000x2000 | 512x512|
+
+**Original Image size:** 512x512 <br/>
+**Patch size:** 128x128 <br/>
+Resampling Factor : Correctly classified images / Total test images <br/>
+ 0.6:968/1001 0.8:976/1001 1:961/1001 1.2:935/1001 1.4:936/1001
+ 
+**Original Image size:** 1024x1024 <br/>
+**Patch size:** 128x128 <br/>
+Resampling Factor : Correctly classified images / Total test images <br/>
+0.6:979/1001
+
+**Original Image size:** 1024x1024 <br/>
+**Patch size:** 256x256 <br/>
+Resampling Factor : Correctly classified images / Total test images <br/>
+0.8:989/1001 1:995/1001 1.2:997/1001 1.4:952/1001
+
+**Original Image size:** greater than 1024x1024 <br/>
+**Patch size:** 256x256 <br/>
+Resampling Factor : Correctly classified images / Total test images <br/>
+0.6:991/1001 0.8:959/1001
+
+**Original Image size:** greater than 1024x1024 <br/>
+**Patch size:** 512x512 <br/>
+Resampling Factor : Correctly classified images / Total test images <br/>
+1:994/1001 1.2:963/1001 1.4:999/1001
+
 # How to use the code?
 - We provide the jupyter file containing the test code with all the dependencies in a single file. For reference the file is pre-computed with results. 
 - However for running it on your own system you need to *download the test dataset containing 15000 images and model checkpoint from our google drive link https://drive.google.com/drive/folders/1orHUf8YHZpjvGj4SwPJL6P108BVhIYQa?usp=sharing.*
