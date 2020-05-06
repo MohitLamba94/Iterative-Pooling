@@ -45,7 +45,9 @@ It should run well for Pytorch>=1.00 and torchvision>=0.2.
 - To run the jupyter file you just need test data containing 15,000 images. 
 - However if you wish to download the full dataset which is over a 100GB, the following link can be used ***https://drive.google.com/drive/folders/1lB2zWreQJPyXF2Iy8xvdfuZQoa-OTWqd?usp=sharing.***
 - The complete dataset has ***75,000 training images***; ***15,000 validation images*** and another ***15,000 images for testing**. 
-- For each set the images are equally divided into 5 resampling factors namely - 0.6,0.8,1,1.2 and 1.4. In its current version the dataset consists of images of 5 different resolutions. For details refer the paper.
+- For each set the images are equally divided into 5 resampling factors namely - 0.6,0.8,1,1.2 and 1.4. In its current version the dataset consists of images of 5 different resolutions ***512 × 512, 1024×1024, 3008×2000, 4288×2848 and 4928×3264***.
+- This is charachteristicly distinct from recent works that evaluate on images of fixed resolution <code>&mdash;</code> mostly of VGA resolution. Refer Table 1 in the main paper.
+
 
 Our code does not uses the validation dataset during the training phase and so the validation dataset can also be used for evaluation.
 We additionally provide a MATLAB file which illustrates how this dataste was created for image resolution of 1024x1024 and also describes how to add rotation to create JPEG+Roation+Resampling+JPEG manipulation dataste which is much harder case to deal with. 
