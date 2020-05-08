@@ -60,4 +60,10 @@ If you find any information provided here useful please cite us,
 
 OR use the BibTex
 
-*@INPROCEEDINGS{9053005, author={M. {Lamba} and K. {Mitra}}, booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, title={Multi-Patch Aggregation Models for Resampling Detection}, year={2020}, volume={}, number={}, pages={2967-2971},}*
+<code>
+@INPROCEEDINGS{9053005, 
+ author={M. {Lamba} and K. {Mitra}}, 
+ booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, title={Multi-Patch Aggregation Models for Resampling Detection}, 
+ year={2020},
+ pages={2967-2971},}
+</code>
