@@ -3,7 +3,7 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 
 ***The arXiv version of the paper can found at https://arxiv.org/abs/2003.01364.***
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://drive.google.com/file/d/13QE9M9QvUycv-OzMYg0YGEJtBd5KiZ2I/view?usp=sharing)](https://www.youtube.com/watch?v=Ol3VFph2F4Y&feature=youtu.be)
 
 
 # Sample Output
