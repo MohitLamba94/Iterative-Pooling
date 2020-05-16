@@ -3,6 +3,9 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 
 ***The arXiv version of the paper can found at https://arxiv.org/abs/2003.01364.***
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
+
 # Sample Output
 |Image Resolution after Resampling|Patch Size|
 |---:|:---|
