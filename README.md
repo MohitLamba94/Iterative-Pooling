@@ -3,7 +3,7 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 
 ***The arXiv version of the paper can found at https://arxiv.org/abs/2003.01364.***
 
-[![Watch the video](https://drive.google.com/file/d/13QE9M9QvUycv-OzMYg0YGEJtBd5KiZ2I/view?usp=sharing)](https://www.youtube.com/watch?v=Ol3VFph2F4Y&feature=youtu.be)
+[![Watch the project video](https://raw.githubusercontent.com/MohitLamba94/Iterative-Pooling/master/pics/icasspVideoPic.png)](https://www.youtube.com/watch?v=Ol3VFph2F4Y&feature=youtu.be)
 
 
 # Sample Output
