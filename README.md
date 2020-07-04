@@ -58,15 +58,19 @@ We additionally provide a MATLAB file which illustrates how this dataste was cre
 
 # Cite us
 If you find any information provided here useful please cite us,
-
-**M. Lamba and K. Mitra, "Multi-Patch Aggregation Models for Resampling Detection," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2020, pp. 2967-2971.**
+<code>
+Lamba Mohit, and Kaushik Mitra. "Multi-Patch Aggregation Models for Resampling Detection." ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020.
+</code>
 
 OR use the BibTex
 
 <code>
-@INPROCEEDINGS{9053005, 
- author={M. {Lamba} and K. {Mitra}}, 
- booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, title={Multi-Patch Aggregation Models for Resampling Detection}, 
- year={2020},
- pages={2967-2971},}
+@inproceedings{lamba2020multi,
+  title={multi-patch aggregation models for resampling detection},
+  author={Lamba, Mohit and Mitra, Kaushik},
+  booktitle={ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={2967--2971},
+  year={2020},
+  organization={IEEE}
+}
 </code>
