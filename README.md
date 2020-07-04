@@ -58,13 +58,12 @@ We additionally provide a MATLAB file which illustrates how this dataste was cre
 
 # Cite us
 If you find any information provided here useful please cite us,
-<code>
+```
 Lamba Mohit, and Kaushik Mitra. "Multi-Patch Aggregation Models for Resampling Detection." ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020.
-</code>
+```
 
 OR use the BibTex
-
-<code>
+```
 @inproceedings{lamba2020multi,
   title={multi-patch aggregation models for resampling detection},
   author={Lamba, Mohit and Mitra, Kaushik},
@@ -73,4 +72,4 @@ OR use the BibTex
   year={2020},
   organization={IEEE}
 }
-</code>
+```
