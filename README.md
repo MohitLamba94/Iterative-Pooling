@@ -7,6 +7,7 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 
 
 # Sample Output
+
 |Image Resolution after Resampling|Patch Size|
 |---:|:---|
 |< 1024x1024 | 128x128|
