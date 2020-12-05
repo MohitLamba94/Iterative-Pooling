@@ -1,6 +1,2 @@
 theme: jekyll-theme-dinky
 show_downloads: true
-
-footer {
-  font-size:24pt;
-}
