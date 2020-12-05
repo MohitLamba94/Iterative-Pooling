@@ -1,2 +1,4 @@
 theme: jekyll-theme-dinky
 show_downloads: true
+
+search_in_sidebar: true
