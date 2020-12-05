@@ -1,18 +1,2 @@
 theme: jekyll-theme-dinky
 show_downloads: true
-
-# make search bar appear in sidebar?
-search_in_sidebar: true
-
-# in responsive view, show sidebar toggle button?
-toggle-sidebar-button: true
-
-# in responsive view, show navbar toggle button?
-navbar-toggle: true
-
-############# AUTOMATED LINKS #############
-
-# the links.html script requires you to list your sidebars here. this is if you're using managed links (see jekyllhowto-content-and-formatting.html#automatedlinks)
-sidebars:
-  - generic
-  - jekyllhowto
