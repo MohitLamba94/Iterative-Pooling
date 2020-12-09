@@ -210,7 +210,7 @@ td {
 
 /* Wrapper */
 .wrapper {
-  width:960px;
+  width:1060px;
 }
 
 
@@ -321,7 +321,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:650px;
+  width:750px;
   float:right;
   padding-bottom:50px;
 }
@@ -340,7 +340,7 @@ footer {
 	padding-left: 50px;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1060px) {
 
   div.wrapper {
     width:auto;
@@ -379,7 +379,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 820px) {
   body {
     word-wrap:break-word;
   }
@@ -403,7 +403,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 580px) {
 
   header ul li.download {
     display:none;
