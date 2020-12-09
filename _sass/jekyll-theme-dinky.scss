@@ -146,7 +146,7 @@ hr {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 750px;
   padding: 5px;
   margin: 10px 0 32px 0;
   border: 1px solid #ccc;
@@ -403,7 +403,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 580px) {
+@media print, screen and (max-width: 480px) {
 
   header ul li.download {
     display:none;
