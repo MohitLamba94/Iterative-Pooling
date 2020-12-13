@@ -18,7 +18,7 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 
 # Sample Output
 
-<div style="width:600px;overflow:auto;padding-left:50px;">
+
   
 |Image Resolution after Resampling|Patch Size|
 |---:|:---|
@@ -26,7 +26,7 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 |~ 1024x1024 but < 2000x2000 | 256x256|
 |>2000x2000 | 512x512|
 
-</div>
+
 
 **Original Image size:** 512x512 <br/>
 **Patch size:** 128x128 <br/>
