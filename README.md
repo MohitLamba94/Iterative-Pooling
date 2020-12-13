@@ -1,18 +1,28 @@
 # Multi-patch Aggregation Models for Resampling Detection
-Images captured nowadays are of varying dimensions with smartphones and DSLR's allowing users to choose from a list of available image resolutions. It is therefore imperative for forensic algorithms such as resampling detection to scale well for images of varying dimensions. However, in our experiments, we observed that many state-of-the-art forensic algorithms are sensitive to image size and their performance quickly degenerates when operated on images of diverse dimensions despite re-training them using multiple image sizes. To handle this issue, we propose a novel pooling strategy called ITERATIVE POOLING. This pooling strategy can dynamically adjust input tensors in a discrete without much loss of information as in ROI Max-pooling. This pooling strategy can be used with any of the existing deep models and for demonstration purposes, we show its utility on Resnet-18 for the case of resampling detection a fundamental operation for any image sought of image manipulation. Compared to existing strategies and Max-pooling it gives up to 7-8% improvement on public datasets.
+
+> The project is the official implementation of our *[IEEE ICASSP paper](https://ieeexplore.ieee.org/abstract/document/9053005), "Multi-patch Aggregation Models for Resampling Detection"*<br>  **&mdash; Mohit Lamba, Kaushik Mitra**
 
 ***The arXiv version of the paper can found at [arXiv.org](https://arxiv.org/abs/2003.01364).***
 
-[![Watch the project video](https://raw.githubusercontent.com/MohitLamba94/Iterative-Pooling/master/pics/icasspVideoPic.png)](https://www.youtube.com/watch?v=Ol3VFph2F4Y&feature=youtu.be)
+Images captured nowadays are of varying dimensions with smartphones and DSLR's allowing users to choose from a list of available image resolutions. It is therefore imperative for forensic algorithms such as resampling detection to scale well for images of varying dimensions. However, in our experiments, we observed that many state-of-the-art forensic algorithms are sensitive to image size and their performance quickly degenerates when operated on images of diverse dimensions despite re-training them using multiple image sizes. To handle this issue, we propose a novel pooling strategy called `Iterative Pooling`. This pooling strategy can dynamically adjust input tensors of different size and shapes without much loss of information as in ROI Max-pooling. This pooling strategy can be used with any of the existing deep models and for demonstration purposes, we show its utility on Resnet-18 for the case of resampling detection a fundamental operation for any image sought of image manipulation. Compared to existing strategies and Max-pooling it gives up to 7-8% improvement on public datasets.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=Ol3VFph2F4Y&feature=youtu.be">
+  <img src="https://raw.githubusercontent.com/MohitLamba94/Iterative-Pooling/master/pics/icasspVideoPic.png" alt="Watch the project Video" height="432">
+  </a>
+</p>
+
 
 
 # Sample Output
 
+<div style="width:600px;overflow:auto;padding-left:50px;">
 |Image Resolution after Resampling|Patch Size|
 |---:|:---|
 |< 1024x1024 | 128x128|
 |~ 1024x1024 but < 2000x2000 | 256x256|
 |>2000x2000 | 512x512|
+</div>
 
 **Original Image size:** 512x512 <br/>
 **Patch size:** 128x128 <br/>
@@ -40,7 +50,7 @@ Resampling Factor : Correctly classified images / Total test images <br/>
 1:994/1001 1.2:963/1001 1.4:999/1001
 
 # How to use the code?
-- We provide the jupyter file containing the test code with all the dependencies in a single file. For reference the file is pre-computed with results. 
+- We provide the [jupyter file](https://github.com/MohitLamba94/Iterative-Pooling/blob/master/Iterative_Pooling_Network.ipynb) containing the test code with all the dependencies in a single file. For reference the file is pre-computed with results. 
 - However for running it on your own system you need to [download](https://drive.google.com/drive/folders/1orHUf8YHZpjvGj4SwPJL6P108BVhIYQa?usp=sharing) the test dataset containing 15000 images and model checkpoint.
 
 It should run well for Pytorch>=1.00 and torchvision>=0.2.
@@ -54,18 +64,15 @@ It should run well for Pytorch>=1.00 and torchvision>=0.2.
 
 
 Our code does not uses the validation dataset during the training phase and so the validation dataset can also be used for evaluation.
-We additionally provide a MATLAB file which illustrates how this dataste was created for image resolution of 1024x1024 and also describes how to add rotation to create JPEG+Roation+Resampling+JPEG manipulation dataste which is much harder case to deal with. 
+We additionally provide a [MATLAB file](https://github.com/MohitLamba94/Iterative-Pooling/blob/master/make_dataset.m) which illustrates how this dataste was created for image resolution of 1024x1024 and also describes how to add rotation to create `JPEG+Roation+Resampling+JPEG` manipulation dataste which is much harder case to deal with. 
 
 
 # Cite us
 If you find any information provided here useful please cite us,
-```
-Lamba Mohit, and Kaushik Mitra. "Multi-Patch Aggregation Models for Resampling Detection." ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020.
-```
 
-OR use the BibTex
-```
-@inproceedings{lamba2020multi,
+<div style="width:600px;overflow:auto;padding-left:50px;">
+<pre>
+  @inproceedings{lamba2020multi,
   title={multi-patch aggregation models for resampling detection},
   author={Lamba, Mohit and Mitra, Kaushik},
   booktitle={ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
@@ -73,4 +80,12 @@ OR use the BibTex
   year={2020},
   organization={IEEE}
 }
-```
+</pre>
+</div>
+
+<div style="width:600px;overflow:auto;padding-left:50px;">
+<pre>
+  Lamba Mohit, and Kaushik Mitra. "Multi-Patch Aggregation Models for Resampling Detection." ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020.
+}
+</pre>
+</div>
