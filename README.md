@@ -6,6 +6,8 @@
 
 Images captured nowadays are of varying dimensions with smartphones and DSLR's allowing users to choose from a list of available image resolutions. It is therefore imperative for forensic algorithms such as resampling detection to scale well for images of varying dimensions. However, in our experiments, we observed that many state-of-the-art forensic algorithms are sensitive to image size and their performance quickly degenerates when operated on images of diverse dimensions despite re-training them using multiple image sizes. To handle this issue, we propose a novel pooling strategy called `Iterative Pooling`. This pooling strategy can dynamically adjust input tensors of different size and shapes without much loss of information as in ROI Max-pooling. This pooling strategy can be used with any of the existing deep models and for demonstration purposes, we show its utility on Resnet-18 for the case of resampling detection a fundamental operation for any image sought of image manipulation. Compared to existing strategies and Max-pooling it gives up to 7-8% improvement on public datasets.
 
+*The project has been summarised in the following video.*
+
 <p align="center">
   <a href="https://www.youtube.com/watch?v=Ol3VFph2F4Y&feature=youtu.be">
   <img src="https://raw.githubusercontent.com/MohitLamba94/Iterative-Pooling/master/pics/icasspVideoPic.png" alt="Watch the project Video" height="432">
@@ -17,11 +19,13 @@ Images captured nowadays are of varying dimensions with smartphones and DSLR's a
 # Sample Output
 
 <div style="width:600px;overflow:auto;padding-left:50px;">
+  
 |Image Resolution after Resampling|Patch Size|
 |---:|:---|
 |< 1024x1024 | 128x128|
 |~ 1024x1024 but < 2000x2000 | 256x256|
 |>2000x2000 | 512x512|
+
 </div>
 
 **Original Image size:** 512x512 <br/>
