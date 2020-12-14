@@ -79,7 +79,7 @@ If you find any information provided here useful please cite us,
   @inproceedings{lamba2020multi,
   title={multi-patch aggregation models for resampling detection},
   author={Lamba, Mohit and Mitra, Kaushik},
-  booktitle={ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   pages={2967--2971},
   year={2020},
   organization={IEEE}
@@ -89,7 +89,7 @@ If you find any information provided here useful please cite us,
 
 <div style="width:600px;overflow:auto;padding-left:50px;">
 <pre>
-  Lamba Mohit, and Kaushik Mitra. "Multi-Patch Aggregation Models for Resampling Detection." ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020.
+Mohit Lamba and Kaushik Mitra. "Multi-Patch Aggregation Models for Resampling Detection." IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020.
 }
 </pre>
 </div>
